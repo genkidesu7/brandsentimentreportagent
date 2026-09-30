@@ -1,0 +1,13 @@
+# Runtime configuration loaded separately from the static agent manifest.
+max_retry: 3
+timeout_s: 30
+memory_enabled: false
+hitl:
+  enabled: false
+crisis_spike_threshold: 0.75
+max_mentions_per_report: 500
+date_range_days: 7
+llm_max_tokens: 2000
+max_input_length: 200
+content_safety_enabled: true
+llm_provider: "azure_openai"
